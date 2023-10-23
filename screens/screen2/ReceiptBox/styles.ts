@@ -19,7 +19,7 @@ export const StyledBadge = styled.View`
 export const StyledDivider = styled.View`
   border: 1px dashed #bab6bb;
   border-radius: 1px;
-  margin: 8px 0;
+  margin: 5px 0;
 `;
 
 export const StyledListItem = styled.View`
@@ -34,7 +34,7 @@ export const StyledSupportBox = styled.View`
   justify-content: center;
   background-color: #fbf5ff;
   align-self: center;
-  margin: ${rh(1.8)}px 0;
+  margin: ${rh(1)}px 0;
   padding: 6px;
 `;
 
@@ -43,7 +43,7 @@ export const StyledFloorBallsContainer = styled.View`
   bottom: 0;
   width: 100%;
   flex-direction: row;
-  bottom: ${rw(-4)}px;
+  bottom: ${rh(-2)}px;
 `;
 
 export const StyledFloorBalls = styled.View`

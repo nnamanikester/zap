@@ -1,7 +1,8 @@
 import * as React from "react";
 import { ReceiptBox } from "./ReceiptBox";
-import { Copyright, ReceiptHeader } from "../../components";
 import { Layout } from "./Layout";
+import { ReceiptHeader } from "./ReceiptHeader";
+import { Copyright } from "./Copyright";
 
 interface Screen2Props {}
 
